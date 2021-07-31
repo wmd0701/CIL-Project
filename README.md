@@ -28,6 +28,7 @@ Just open the notebook and run cells step by step. You can do this locally or on
 Especially, SVD++ can be run with two different strategies for embedding initialization (model 1 and 6). You can control initialization strategy by setting the variable ***svd_init*** to True/False. You can also opt for normal training style or ALS(alternating least square) training style by setting the variable ***ALS_train*** to True/False.
 
 ## Tips
-1. Please make sure you have enough RAM when running ensemble method (model 7). Otherwise, decrease ***n_jobs*** correspondingly. It may take hours before training is finished.
+1. Set the variable ***validate*** to True/False to control whether training with 90% data + validation with 10% data, or training with 100% data.
 
-2. Set the variable ***validate*** to True/False to control whether training with 90% data + validation with 10% data, or training with 100% data.
+2. Please make sure you have enough RAM when running ensemble method (model 7). Otherwise, decrease ***n_jobs*** correspondingly. It may take hours before training is finished.
+
