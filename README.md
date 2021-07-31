@@ -5,7 +5,7 @@ The models are implemented using Pytorch. All notebook should run on Google Cola
 
 ## Models
 
-We implement in total 7 models, they are:
+In total we implement 7 models. They are:
 
 ```
 1. SVD++ with with SVD-based embedding initializaion
@@ -19,7 +19,7 @@ We implement in total 7 models, they are:
 7. Ensemble - bagging on scaled sigmoided SVD++ (model 2)
 ```
 
-Model 1 and 6 are implemented in the same notebook. All other models are implemented stand-alone. Model 4, 5, 6 are baseline models, model 7 is ensemble bagging over model 2.
+Model 1 and 6 are implemented in the same notebook (SVD++.ipynb). All other models are implemented stand-alone. Model 4, 5, 6 are baseline models. Model 7 is ensemble bagging over model 2.
 
 ## How to run model
 
