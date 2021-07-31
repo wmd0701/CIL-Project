@@ -19,10 +19,15 @@ We implement in total 7 models, they are:
 7. Ensemble - bagging on scaled sigmoided SVD++ (model 2)
 ```
 
-Model 4, 5, 6 are baseline models, model 7 is ensemble bagging over model 2.
+Model 1 and 6 are implemented in the same notebook. All other models are implemented stand-alone. Model 4, 5, 6 are baseline models, model 7 is ensemble bagging over model 2.
 
 ## How to run model
 
-Just run the notebook and run cells step by step. You can do this locally or on Google Colab. To accelerate the training process, you may switch to GPU session on Colab.
+Just open the notebook and run cells step by step. You can do this locally or on Google Colab. To accelerate the training process, you may switch to GPU session on Colab.
 
-Especially, SVD++ can be run with two different strategies for embedding initialization (model 1 and 6). You can control initialization strategy by setting the variable ****svd_init**** to True/False.
+Especially, SVD++ can be run with two different strategies for embedding initialization (model 1 and 6). You can control initialization strategy by setting the variable ***svd_init*** to True/False. You can also opt for normal training style or ALS(alternating least square) training style by setting the variable ***ALS_train*** to True/False.
+
+## Tips
+1. Please make sure you have enough RAM when running ensemble method (model 7). Otherwise, decrease ***n_jobs*** correspondingly.
+
+2. Set the variable ***validate*** to True/False to control whether training with 90% data + validation with 10% data, or training with 100% data.
