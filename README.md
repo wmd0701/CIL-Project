@@ -1,16 +1,20 @@
 # CIL-Project
 This is the repo for Computational Intelligence Lab 2020 project, ETHZ. Kaggle group name: CIL Project.
 
+The models are implemented using Pytorch. All notebook should run on Google Colab seamlessly. 
 
-## How to train the final model
+## Models
 
-1. Activate Enviroment
+We implement in total 6 models, they are:
+
 ```
-conda activate mp_project3
-```
-2. Submit training job
-```
-bash train.sh
+Baseline - item-based KNN
+Baseline - CNF
+Baseline - SVD++ with uniformly initialized embeddings
+
+SVD++ with with SVD-based embedding initializaion
+scaled sigmoided SVD++
+item-based classification correction
 ```
 
 ## How to predict with the final model
