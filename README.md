@@ -7,7 +7,7 @@ The models are implemented using Pytorch. All notebook should run on Google Cola
 
 We implement in total 7 models, they are:
 
-'''
+```
 1. SVD++ with with SVD-based embedding initializaion
 2. scaled sigmoided SVD++
 3. item-based classification correction
@@ -17,7 +17,7 @@ We implement in total 7 models, they are:
 6. Baseline - SVD++ with uniformly initialized embeddings
 
 7. Ensemble - bagging on scaled sigmoided SVD++ (model 2)
-'''
+```
 
 Model 1 and 6 are implemented in the same notebook. All other models are implemented stand-alone. Model 4, 5, 6 are baseline models, model 7 is ensemble bagging over model 2.
 
