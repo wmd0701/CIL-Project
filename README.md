@@ -32,3 +32,4 @@ Especially, SVD++ can be run with two different strategies for embedding initial
 
 2. Please make sure you have enough RAM when running ensemble method (model 7). Otherwise, decrease ***n_jobs*** correspondingly. It may take hours before training is finished.
 
+3. plot.ipynb is the notebook we used to produce plots for model comparison. All data are already gathered.
