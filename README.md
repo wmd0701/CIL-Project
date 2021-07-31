@@ -1,11 +1,11 @@
 # CIL-Project
 This is the repo for Computational Intelligence Lab 2020 project, ETHZ. Kaggle group name: CIL Project.
 
-The models are implemented using Pytorch. All notebook should run on Google Colab seamlessly. 
+The models are implemented using Pytorch. All notebook should run on Google Colab seamlessly. Data are automatically downloaded when running the notebook. However you may replace the kaggle account and api key in the notebook for the sake of privacy.
 
 ## Models
 
-We implement in total 6 models, they are:
+We implement in total 7 models, they are:
 
 ```
 1. SVD++ with with SVD-based embedding initializaion
@@ -21,13 +21,8 @@ We implement in total 6 models, they are:
 
 Model 4, 5, 6 are baseline models, model 7 is ensemble bagging over model 2.
 
-## How to predict with the final model
+## How to run model
 
-1. Activate Enviroment
-```
-conda activate mp_project3
-```
-2. Make predictions with the last model. Look in the out directory for the last iteration number (should be 40000). Use that model to make predictions
-```
-cd codebase/ && bsub -n 6 -W 00:30 -o out.txt -R "rusage[mem=4096, ngpus_excl_p=1]" python test.py ../configs/modelfinal.yaml --model_file model_40000.pt
-```
+Just run the notebook and run cells step by step. You can do this locally or on Google Colab. To accelerate the training process, you may switch to GPU session on Colab.
+
+Especially, SVD++ can be run with two different strategies for embedding initialization (model 1 and 6). You can control initialization strategy by setting the variable **svd_init** to True/False.
