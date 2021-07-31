@@ -25,4 +25,4 @@ Model 4, 5, 6 are baseline models, model 7 is ensemble bagging over model 2.
 
 Just run the notebook and run cells step by step. You can do this locally or on Google Colab. To accelerate the training process, you may switch to GPU session on Colab.
 
-Especially, SVD++ can be run with two different strategies for embedding initialization (model 1 and 6). You can control initialization strategy by setting the variable **svd_init** to True/False.
+Especially, SVD++ can be run with two different strategies for embedding initialization (model 1 and 6). You can control initialization strategy by setting the variable ***svd_init*** to True/False.
