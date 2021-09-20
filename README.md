@@ -1,5 +1,5 @@
 # CIL-Project
-This is the repo for Computational Intelligence Lab 2020 project, ETHZ. Kaggle group name: CIL Project.
+This is the repo for Computational Intelligence Lab 2021 project, ETHZ. Kaggle group name: CIL Project.
 
 The models are implemented using Pytorch. All notebook should run on Google Colab seamlessly. Data are automatically downloaded when running the notebook. However you may replace the kaggle account and api key in the notebook for the sake of privacy.
 
