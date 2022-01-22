@@ -1,5 +1,7 @@
 # CIL-Project
-This is the repo for Computational Intelligence Lab 2021 project, ETHZ. Kaggle group name: CIL Project.
+This is the repo for Computational Intelligence Lab 2021 project, ETHZ. 
+
+The task is collaborative filtering. There is a Kaggle competition for this course project on [Kaggle](https://www.kaggle.com/c/cil-collaborative-filtering-2021/). Our roup name is CIL Project.
 
 The models are implemented using Pytorch. All notebook should run on Google Colab seamlessly. Data are automatically downloaded when running the notebook. However you may replace the kaggle account and api key in the notebook for the sake of privacy.
 
