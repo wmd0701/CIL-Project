@@ -5,6 +5,26 @@ The task is **Collaborative Filtering** on movie ratings. There is a Kaggle comp
 
 The models are implemented using Pytorch. All notebook should run on Google Colab seamlessly. Data are automatically downloaded when running the notebook. However you may replace the kaggle account and api key in the notebook for the sake of privacy.
 
+
+## Visualizations
+
+### Movie histogram
+<img src="https://user-images.githubusercontent.com/34072813/150688904-28c6931f-8ef8-4c0f-be10-8e3368ac6cef.png" width=40% height=40%>
+
+### Rating histogram
+<img src="https://user-images.githubusercontent.com/34072813/150688921-d1cb4552-669d-46e9-86ba-03b7b43ca03b.png" width=40% height=40%>
+
+### Training MSE
+<img src="https://user-images.githubusercontent.com/34072813/150688934-c5bc8e7c-b4db-48ef-87f4-6003e5f0403c.png" width=40% height=40%>
+
+### Validation MSE
+<img src="https://user-images.githubusercontent.com/34072813/150688942-af0d3e6b-2ad0-4358-8115-f4e0e7de7993.png" width=40% height=40%>
+
+### Validation accuracy
+<img src="https://user-images.githubusercontent.com/34072813/150688958-3bdbb309-71b0-49a0-bd75-e02fabfc396d.png" width=40% height=40%>
+
+
+
 ## Models
 
 In total we implement 7 models. They are:
